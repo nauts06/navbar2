@@ -1,7 +1,39 @@
-.App {
+/* .App {
   text-align: center;
+} */
+#main{
+  display: flex;
+  background-color: #282c34;
+  justify-content: space-evenly;
+  height: 70px;
 }
-
+a{
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 22px;
+}
+h2{
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+}
+button{
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+  width: 120px;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 50px;
+  color: white ;
+  background-color: #61d9fb;
+  border:  #61d9fb;
+}
+#main>div{
+  display: flex;
+  gap: 12px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
